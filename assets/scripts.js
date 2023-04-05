@@ -39,12 +39,14 @@ function helloWorld() {
    }
 helloWorld()
 
+//function for listing course topics
 function listTopics() {
     for (var x = 0; x < topics.length; x++) {
       console.log(topics[x]);
     }
    }
    
+//function for selecting course topics
 function selectTopic() {
     if (randomTopic === 'HTML') {
       console.log("Let's study HTML!");
@@ -59,15 +61,10 @@ function selectTopic() {
     }
   }
 
-function listTopics() {
-    for (var x = 0; x < topics.length; x++) {
-      console.log(topics[x]);
-    }
-   }
+
 
 listTopics()
 
 console.log('Which topic should we study first?');
 selectTopic();
 
-// selectTopic()
